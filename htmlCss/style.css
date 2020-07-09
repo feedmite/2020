@@ -1,0 +1,75 @@
+h1{
+    color: white;
+    background-color: pink;
+    text-align: center;
+    font-size: 300%;
+}
+
+
+.Radio {
+    background-color: rgb(185, 255, 252);
+}
+input[type='text']{
+    background-color: lightblue;
+    font-weight: bold;
+  }
+input[type='password']{
+    background-color: #faf398;
+  }
+.form{
+    background-color: rgb(255, 191, 191);
+}
+.image{
+    margin: 25px;
+    border:5px black solid;
+}
+.tabla{
+    border: 3px solid black;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    border-collapse: collapse;
+ }
+
+ th, td{
+    font-size: 22px;
+    font-style: italic;
+    padding: 10px;
+    border: 1px solid black;
+    
+ }
+ button{
+     font-size: 30px;
+     font-weight: bolder;
+     border-radius: 2px;
+     width: 300px;
+     height: 40px;
+     background-color: lightblue;
+ }
+ button:hover{
+     background-color: lightcoral;
+     width: 310px;
+     height: 45px;
+ }
+ ol{
+     font-size: 24px;
+     color: blue;
+     font-weight: bold;
+ }
+ ul{
+     font-size: 24px;
+     color: blue;
+     font-weight: bold;
+ }
+ p{
+     font-size: 20px;
+ }
+ @media (min-width:500px){
+ body {
+     background-color: rgb(255, 226, 189);
+ }}
+ @media (max-width:499px){
+    body {
+        background-color: rgb(210, 255, 216);
+    }}
+ 
